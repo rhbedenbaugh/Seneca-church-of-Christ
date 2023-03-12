@@ -12,7 +12,7 @@
 	);
 
 	/// Properties that should be vendorized.
-	/// Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org
+	/// Data via caniuse.com, github.com/postcss/autoprefixer, & developer.mozilla.org
 	/// @var {list}
 	$vendor-properties: (
 
@@ -69,7 +69,7 @@
 		// Font kerning.
 			'font-kerning',
 
-		// Fragmented borders and backgrounds.
+		// Fragmented borders & backgrounds.
 			'box-decoration-break',
 
 		// Grid layout.
@@ -193,7 +193,7 @@
 	);
 
 	/// Values that should be vendorized.
-	/// Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org
+	/// Data via caniuse.com, github.com/postcss/autoprefixer, & developer.mozilla.org
 	/// @var {list}
 	$vendor-values: (
 

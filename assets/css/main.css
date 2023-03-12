@@ -4,7 +4,7 @@
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Free for personal & commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 html,
@@ -354,31 +354,31 @@ hr:after {
   width: 1400px;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen & (max-width: 1680px) {
   .container {
     width: 1200px;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen & (max-width: 1280px) {
   .container {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen & (max-width: 960px) {
   .container {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 840px) {
+@media screen & (max-width: 840px) {
   .container {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen & (max-width: 736px) {
   .container {
     width: 100%;
   }
@@ -627,7 +627,7 @@ hr:after {
   padding-top: 80px;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen & (max-width: 1680px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -870,7 +870,7 @@ hr:after {
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen & (max-width: 1280px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -1113,7 +1113,7 @@ hr:after {
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen & (max-width: 960px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -1356,7 +1356,7 @@ hr:after {
   }
 }
 
-@media screen and (max-width: 840px) {
+@media screen & (max-width: 840px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -1599,7 +1599,7 @@ hr:after {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen & (max-width: 736px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -2748,7 +2748,7 @@ body.homepage.is-preload #header:after {
 
 /* Wide */
 
-@media screen and (max-width: 1680px) {
+@media screen & (max-width: 1680px) {
   /* Basic */
 
   body,
@@ -2777,7 +2777,7 @@ body.homepage.is-preload #header:after {
 
 /* Normal */
 
-@media screen and (max-width: 1280px) {
+@media screen & (max-width: 1280px) {
   /* Basic */
 
   body,
@@ -2825,7 +2825,7 @@ body.homepage.is-preload #header:after {
 
 /* Narrower */
 
-@media screen and (max-width: 840px) {
+@media screen & (max-width: 840px) {
   /* Basic */
 
   body,
@@ -2870,7 +2870,7 @@ body.homepage.is-preload #header:after {
   display: none;
 }
 
-@media screen and (max-width: 736px) {
+@media screen & (max-width: 736px) {
   /* Basic */
 
   html,
