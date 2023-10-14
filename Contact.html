@@ -36,22 +36,71 @@
             <li><a href="Events.html">Events</a></li>
             <li>
               <a
-              href="https://www.google.com/maps/place/Seneca+Church+of+Christ/@34.6986828,-82.8859587,745m/data=!3m2!1e3!4b1!4m6!3m5!1s0x88585fa014c21eb5:0x15fcce384c5c9758!8m2!3d34.6986828!4d-82.88377!16s%2Fg%2F1vgx1gn0"
-              target="_blank"
-              >Directions</a
+                href="https://www.google.com/maps/place/Seneca+Church+of+Christ/@34.6986828,-82.8859587,745m/data=!3m2!1e3!4b1!4m6!3m5!1s0x88585fa014c21eb5:0x15fcce384c5c9758!8m2!3d34.6986828!4d-82.88377!16s%2Fg%2F1vgx1gn0"
+                target="_blank"
+                >Directions</a
               >
             </li>
             <li><a href="Contact.html">Contact Us</a></li>
           </ul>
         </nav>
       </div>
-      <script
+
+      <!-- <form
+        action="https://formsubmit.co/robertbedenbaughjr@gmail.com"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <button type="submit">Send</button>
+      </form> -->
+
+      <div class="container">
+        <form
+          action="https://formsubmit.co/robertbedenbaughjr@gmail.com"
+          method="POST"
+        >
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <!-- <script
         type="text/javascript"
         defer
         src="https://form.123formbuilder.com/embed/6394426.js"
         data-role="form"
         data-default-width="650px"
-      ></script>
+      ></script> -->
     </div>
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
